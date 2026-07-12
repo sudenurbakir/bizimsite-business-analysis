@@ -177,4 +177,4 @@ Persona analizi sonucunda BizimSite kullanıcılarının farklı hedeflere, prob
 
 Site yöneticisi yönetim süreçlerinin merkezi olarak yürütülmesine, site sakini bilgiye kolay erişime, muhasebe sorumlusu finansal kayıtların düzenli takibine ve teknik ekip personeli arıza taleplerinin yönetimine odaklanmaktadır.
 
-Belirlenen kullanıcı ihtiyaçları, kullanıcı hikâyelerinin ve fonksiyonel gereksinimlerin oluşturulmasında temel alınacaktır.
+Belirlenen kullanıcı ihtiyaçları, kullanıcı hikayelerinin ve fonksiyonel gereksinimlerin oluşturulmasında temel alınacaktır.
