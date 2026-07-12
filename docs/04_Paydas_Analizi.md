@@ -14,7 +14,7 @@ Bu kapsamda sistemden doğrudan veya dolaylı olarak etkilenen paydaşlar ve bu 
 | Site Sakini | Son kullanıcı | Aidat bilgilerine, duyurulara ve oluşturduğu taleplere kolay şekilde erişmek |
 | Muhasebe Sorumlusu | Finansal süreç kullanıcısı | Aidat kayıtlarını ve ödeme durumlarını düzenli şekilde takip etmek |
 | Teknik Ekip | Hizmet sağlayıcı | Arıza ve hizmet taleplerini görüntülemek ve süreç durumlarını güncellemek |
-| Güvenlik Personeli | Operasyonel kullanıcı | Ziyaretçi giriş ve çıkış kayıtlarını düzenli şekilde yönetmek |
+
 
 ---
 
@@ -52,14 +52,6 @@ Tamamlanan işlemlerin kayıt altına alınabilmesi temel beklentiler arasındad
 
 ---
 
-### Güvenlik Personeli
-
-Siteye gelen ziyaretçilere ait giriş ve çıkış bilgilerinin düzenli şekilde kayıt altına alınmasını istemektedir.
-
-Geçmiş ziyaretçi kayıtlarına gerektiğinde erişilebilmesi beklenmektedir.
-
----
-
 ## Güç ve İlgi Analizi
 
 | Paydaş | Güç Seviyesi | İlgi Seviyesi | Yaklaşım |
@@ -68,14 +60,15 @@ Geçmiş ziyaretçi kayıtlarına gerektiğinde erişilebilmesi beklenmektedir.
 | Site Sakini | Düşük | Yüksek | Düzenli bilgilendir ve geri bildirim al |
 | Muhasebe Sorumlusu | Orta | Yüksek | Finansal süreç analizlerine dahil et |
 | Teknik Ekip | Düşük | Orta | Arıza yönetimi süreçlerine dahil et |
-| Güvenlik Personeli | Düşük | Orta | Ziyaretçi yönetimi çalışmalarına dahil et |
 
 ---
 
 ## Genel Değerlendirme
 
+ ## Genel Değerlendirme
+
 BizimSite projesinde Site Yöneticisi, karar alma ve yönetim süreçleri açısından en yüksek etkiye sahip paydaştır.
 
 Site sakinleri, sistemin temel son kullanıcı grubunu oluşturduğu için kullanıcı deneyimi ve bilgiye erişim açısından yüksek öneme sahiptir.
 
-Muhasebe sorumlusu, teknik ekip ve güvenlik personelinin ihtiyaçları ise dahil oldukları operasyonel süreçler kapsamında ayrıca değerlendirilmelidir.
+Muhasebe sorumlusu ve teknik ekibin ihtiyaçları ise dahil oldukları operasyonel süreçler kapsamında ayrıca değerlendirilmelidir.
