@@ -65,8 +65,6 @@ Tamamlanan işlemlerin kayıt altına alınabilmesi temel beklentiler arasındad
 
 ## Genel Değerlendirme
 
- ## Genel Değerlendirme
-
 BizimSite projesinde Site Yöneticisi, karar alma ve yönetim süreçleri açısından en yüksek etkiye sahip paydaştır.
 
 Site sakinleri, sistemin temel son kullanıcı grubunu oluşturduğu için kullanıcı deneyimi ve bilgiye erişim açısından yüksek öneme sahiptir.
