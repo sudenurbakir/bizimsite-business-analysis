@@ -97,6 +97,8 @@ Site sakini, site yönetimiyle ilgili temel bilgilere yönetime sürekli ulaşma
 
 Muhasebe sorumlusu, siteye ait aidat kayıtlarının, ödeme durumlarının ve ortak gider bilgilerinin finansal takibinden sorumludur.
 
+Site yönetimine dışarıdan muhasebe desteği sağlayan yetkili bir kullanıcı olarak finansal süreçlerin düzenli şekilde yürütülmesine destek olmaktadır.
+
 ### Hedefleri
 
 - Aidat kayıtlarını düzenli şekilde takip etmek
