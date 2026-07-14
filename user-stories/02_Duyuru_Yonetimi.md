@@ -24,7 +24,7 @@ Bir site yöneticisi olarak, yeni bir duyuru oluşturmak istiyorum; böylece sit
 
 - BR-02
 - FR-06
-- FR-41
+- FR-44
 - NFR-02
 - NFR-11
 - NFR-18
@@ -51,10 +51,8 @@ Bir site yöneticisi olarak, hazırladığım duyuruyu taslak olarak kaydetmek v
 - FR-07
 - FR-08
 - FR-10
+- NFR-02
 - NFR-11
-- NFR-14
-- NFR-14
-
 ---
 
 ## US-07 - Duyuru Yayımlama
@@ -74,10 +72,10 @@ Bir site yöneticisi olarak, hazırladığım duyuruyu yayımlamak istiyorum; b�
 ### İlgili Gereksinimler
 
 - BR-02
-- FR-08
 - FR-09
 - FR-10
-- FR-41
+- FR-11
+- FR-44
 - NFR-02
 - NFR-11
 
@@ -100,11 +98,10 @@ Bir site sakini olarak, yayımlanmış duyuruları görüntülemek istiyorum; b�
 ### İlgili Gereksinimler
 
 - BR-02
-- FR-09
 - FR-10
 - FR-11
+- FR-12
 - NFR-05
-- NFR-14
 
 ---
 
@@ -113,7 +110,7 @@ Bir site sakini olarak, yayımlanmış duyuruları görüntülemek istiyorum; b�
 | Kullanıcı Hikayesi | Rol | Amaç |
 |---|---|---|
 | US-05 | Site Yöneticisi | Duyuru oluşturmak |
-| US-06 | Site Yöneticisi | Duyuruyu taslak olarak kaydetmek |
+| US-06 | Site Yöneticisi | Duyuruyu taslak olarak kaydetmek ve düzenlemek|
 | US-07 | Site Yöneticisi | Duyuru yayımlamak |
 | US-08 | Site Sakini | Yayımlanmış duyuruları görüntülemek |
 
