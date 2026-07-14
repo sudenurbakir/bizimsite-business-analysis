@@ -2,13 +2,13 @@
 
 BizimSite aidat yönetimi süreci kapsamında kullanıcı ihtiyaçlarını sistem davranışlarına dönüştürmek amacıyla kullanıcı hikâyeleri hazırlanmıştır.
 
-Her kullanıcı hikâyesi, ilgili kullanıcının hedefini ve bu hedef sonucunda elde etmek istediği değeri açıklamaktadır.
+Her kullanıcı hikayesi, ilgili kullanıcının hedefini ve bu hedef sonucunda elde etmek istediği değeri açıklamaktadır.
 
 ---
 
 ## US-01 - Aidat Kaydı Oluşturma
 
-### Kullanıcı Hikâyesi
+### Kullanıcı Hikayesi
 
 Bir muhasebe sorumlusu olarak, yeni aidat kaydı oluşturmak istiyorum; böylece dairelere ait aidat bilgilerini sistem üzerinden takip edebilirim.
 
@@ -32,7 +32,7 @@ Bir muhasebe sorumlusu olarak, yeni aidat kaydı oluşturmak istiyorum; böylece
 
 ## US-02 - Aidat Ödeme Durumunu Güncelleme
 
-### Kullanıcı Hikâyesi
+### Kullanıcı Hikayesi
 
 Bir muhasebe sorumlusu olarak, aidat kaydının ödeme durumunu güncellemek istiyorum; böylece güncel ödeme bilgilerini sistem üzerinden takip edebilirim.
 
@@ -55,7 +55,7 @@ Bir muhasebe sorumlusu olarak, aidat kaydının ödeme durumunu güncellemek ist
 
 ## US-03 - Kendi Aidat Bilgilerini Görüntüleme
 
-### Kullanıcı Hikâyesi
+### Kullanıcı Hikayesi
 
 Bir site sakini olarak, kendi daireme ait aidat bilgilerini görüntülemek istiyorum; böylece site yönetimine ulaşmadan aidat ve ödeme durumumu kontrol edebilirim.
 
@@ -80,7 +80,7 @@ Bir site sakini olarak, kendi daireme ait aidat bilgilerini görüntülemek isti
 
 ## US-04 - Aidat Kayıtlarını Görüntüleme
 
-### Kullanıcı Hikâyesi
+### Kullanıcı Hikayesi
 
 Bir site yöneticisi veya muhasebe sorumlusu olarak, aidat kayıtlarını görüntülemek istiyorum; böylece siteye ait aidat süreçlerini takip edebilirim.
 
@@ -102,7 +102,7 @@ Bir site yöneticisi veya muhasebe sorumlusu olarak, aidat kayıtlarını görü
 
 ---
 
-## Kullanıcı Hikâyesi Özeti
+## Kullanıcı Hikayesi Özeti
 
 | Kullanıcı Hikâyesi | Rol | Amaç |
 |---|---|---|
@@ -115,6 +115,6 @@ Bir site yöneticisi veya muhasebe sorumlusu olarak, aidat kayıtlarını görü
 
 ## Genel Değerlendirme
 
-Aidat yönetimi kullanıcı hikâyeleri, muhasebe sorumlusunun aidat kayıtlarını yönetmesi ve site sakinlerinin kendi dairelerine ait aidat bilgilerine erişebilmesi temel alınarak hazırlanmıştır.
+Aidat yönetimi kullanıcı hikayeleri, muhasebe sorumlusunun aidat kayıtlarını yönetmesi ve site sakinlerinin kendi dairelerine ait aidat bilgilerine erişebilmesi temel alınarak hazırlanmıştır.
 
 Tanımlanan kabul kriterleri, kullanıcı hikâyelerinin tamamlanma koşullarının değerlendirilmesinde referans olarak kullanılacaktır.
