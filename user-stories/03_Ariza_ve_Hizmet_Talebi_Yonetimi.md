@@ -88,7 +88,8 @@ Bir teknik ekip personeli olarak, bana atanan talebin durumunu güncellemek isti
 ### Kabul Kriterleri
 
 - Teknik ekip personeli yalnızca kendisine atanan taleplerin durumunu güncelleyebilmelidir.
-- Talep durumu "Yeni", "İşlemde" veya "Tamamlandı" değerlerinden biri olmalıdır.
+- Talep durumları "Yeni", "İşlemde" ve "Tamamlandı" sırasına göre ilerlemelidir.
+- "Yeni" durumundaki bir talep doğrudan "Tamamlandı" durumuna geçirilememelidir.
 - Tanımlı olmayan bir durum değeri kaydedilmemelidir.
 - Teknik ekip personeli kendisine atanmamış bir talebin durumunu güncelleyememelidir.
 - Başarılı güncelleme işlemi sonrasında kullanıcıya işlem sonucu bildirilmelidir.
@@ -96,6 +97,7 @@ Bir teknik ekip personeli olarak, bana atanan talebin durumunu güncellemek isti
 ### İlgili Gereksinimler
 
 - BR-03
+- BRULE-16
 - FR-18
 - FR-19
 - FR-43
