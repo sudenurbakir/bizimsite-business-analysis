@@ -92,7 +92,7 @@ Sistem, teknik ekip personelinin kendisine atanan talebin durumunu güncellemesi
 
 ### FR-19
 
-Sistem, talep durumlarının "Yeni", "İşlemde" veya "Tamamlandı" değerlerinden biri olmasını sağlamalıdır.
+Sistem, arıza ve hizmet taleplerinin durumlarını "Yeni", "İşlemde" ve "Tamamlandı" sırasına göre ilerletmeli ve "Yeni" durumundaki bir talebin doğrudan "Tamamlandı" durumuna geçirilmesini engellemelidir.
 
 ### FR-20
 
