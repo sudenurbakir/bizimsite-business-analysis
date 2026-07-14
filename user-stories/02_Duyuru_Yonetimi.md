@@ -31,25 +31,28 @@ Bir site yöneticisi olarak, yeni bir duyuru oluşturmak istiyorum; böylece sit
 
 ---
 
-## US-06 - Duyuruyu Taslak Olarak Kaydetme
+## US-06 - Duyuruyu Taslak Olarak Kaydetme ve Düzenleme
 
 ### Kullanıcı Hikayesi
 
-Bir site yöneticisi olarak, hazırladığım duyuruyu taslak olarak kaydetmek istiyorum; böylece duyuruyu yayımlamadan önce daha sonra düzenlemeye devam edebilirim.
+Bir site yöneticisi olarak, hazırladığım duyuruyu taslak olarak kaydetmek ve daha sonra düzenlemek istiyorum; böylece duyuruyu yayımlamadan önce içerik üzerinde çalışmaya devam edebilirim.
 
 ### Kabul Kriterleri
 
 - Site yöneticisi oluşturduğu duyuruyu taslak olarak kaydedebilmelidir.
 - Taslak duyuru site sakinleri tarafından görüntülenememelidir.
-- Taslak olarak kaydedilen duyuru daha sonra tekrar görüntülenebilmelidir.
-- Başarılı kayıt işlemi sonrasında kullanıcıya işlem sonucu bildirilmelidir.
+- Site yöneticisi taslak duyuruyu daha sonra görüntüleyebilmelidir.
+- Site yöneticisi taslak duyurunun başlık ve içerik bilgilerini düzenleyebilmelidir.
+- Başarılı güncelleme işlemi sonrasında kullanıcıya işlem sonucu bildirilmelidir.
 
 ### İlgili Gereksinimler
 
 - BR-02
 - FR-07
-- FR-09
+- FR-08
+- FR-10
 - NFR-11
+- NFR-14
 - NFR-14
 
 ---
