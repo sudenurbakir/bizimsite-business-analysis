@@ -1,4 +1,4 @@
-# BizimSite - Aidat Yönetimi Kullanıcı Hikâyeleri
+# BizimSite - Aidat Yönetimi Kullanıcı Hikayeleri
 
 BizimSite aidat yönetimi süreci kapsamında kullanıcı ihtiyaçlarını sistem davranışlarına dönüştürmek amacıyla kullanıcı hikâyeleri hazırlanmıştır.
 
