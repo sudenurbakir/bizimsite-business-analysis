@@ -149,21 +149,67 @@ Site sakininin kendi rezervasyonlarını görüntülemek istemesi.
 
 - US-18
 
-## US-19 - Rezervasyon İptal Etme
+---
 
-### Kullanıcı Hikayesi
+## UC-18 - Rezervasyon İptal Etme
 
-Bir site sakini olarak, oluşturduğum ve henüz gerçekleşmemiş bir rezervasyonu iptal etmek istiyorum; böylece kullanmayacağım ortak alan rezervasyonunu kaldırabilirim.
+### Aktör
 
-### Kabul Kriterleri
+Site Sakini
 
-- Site sakini yalnızca kendi oluşturduğu rezervasyonları iptal edebilmelidir.
-- Geçmiş rezervasyonlar iptal edilememelidir.
-- Başka kullanıcılar tarafından oluşturulan rezervasyonlar iptal edilememelidir.
-- Başarılı iptal işlemi sonrasında kullanıcıya işlem sonucu bildirilmelidir.
+### Amaç
+
+Site sakininin oluşturduğu ve henüz gerçekleşmemiş bir ortak alan rezervasyonunu iptal etmesini sağlamak.
+
+### Ön Koşullar
+
+- Site sakini sisteme giriş yapmış olmalıdır.
+- İlgili rezervasyon sistemde bulunmalıdır.
+- Rezervasyon site sakini tarafından oluşturulmuş olmalıdır.
+- Rezervasyon henüz gerçekleşmemiş olmalıdır.
+
+### Tetikleyici
+
+Site sakininin kendi rezervasyonlarından birini iptal etmek istemesi.
+
+### Ana Akış
+
+1. Site sakini kendi rezervasyonlarını görüntüler.
+2. İptal etmek istediği rezervasyonu seçer.
+3. Sistem rezervasyon bilgilerini görüntüler.
+4. Site sakini iptal işlemini başlatır.
+5. Sistem rezervasyonun ilgili kullanıcı tarafından oluşturulduğunu kontrol eder.
+6. Sistem rezervasyon tarihinin henüz geçmediğini kontrol eder.
+7. Sistem rezervasyonu iptal eder.
+8. Sistem kullanıcıya işlemin başarılı olduğunu bildirir.
+
+### Alternatif Akışlar
+
+#### A1 - Başka Kullanıcıya Ait Rezervasyon
+
+1. Sistem rezervasyonun ilgili site sakini tarafından oluşturulmadığını tespit eder.
+2. Sistem iptal işlemini gerçekleştirmez.
+3. Sistem erişim işlemini engeller.
+
+#### A2 - Geçmiş Rezervasyon
+
+1. Sistem rezervasyon tarihinin geçmiş olduğunu tespit eder.
+2. Sistem iptal işlemini gerçekleştirmez.
+3. Sistem kullanıcıya rezervasyonun iptal edilemeyeceğini bildirir.
+
+### Son Koşullar
+
+- İlgili rezervasyon iptal edilmiş durumda sistemde saklanır.
+- İptal edilen rezervasyonun zaman aralığı yeni rezervasyonlar için kullanılabilir hale gelir.
+
+### İlgili Kullanıcı Hikayesi
+
+- US-19
+
+---
 
 ## Genel Değerlendirme
 
-Ortak alan rezervasyonu use case analizi, site sakinlerinin rezervasyona açık ortak alanları görüntülemesi, uygun tarih ve saat aralıkları için rezervasyon oluşturması ve kendi rezervasyon kayıtlarını takip etmesi süreçlerini açıklamaktadır.
+Ortak alan rezervasyonu use case analizi, site sakinlerinin rezervasyona açık ortak alanları görüntülemesi, uygun tarih ve saat aralıkları için rezervasyon oluşturması, kendi rezervasyon kayıtlarını takip etmesi ve henüz gerçekleşmemiş rezervasyonlarını iptal etmesi süreçlerini açıklamaktadır.
 
 Tanımlanan ana ve alternatif akışlar, sistem davranışlarının detaylandırılması ve sonraki tasarım çalışmalarında referans olarak kullanılacaktır.
