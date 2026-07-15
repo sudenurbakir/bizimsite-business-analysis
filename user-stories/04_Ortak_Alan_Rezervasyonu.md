@@ -95,6 +95,29 @@ Bir site sakini olarak, oluşturduğum ortak alan rezervasyonlarını görüntü
 
 ---
 
+## US-19 - Rezervasyon İptal Etme
+
+### Kullanıcı Hikayesi
+
+Bir site sakini olarak, oluşturduğum ve henüz gerçekleşmemiş bir rezervasyonu iptal etmek istiyorum; böylece kullanmayacağım ortak alan rezervasyonunu iptal edebilirim.
+
+### Kabul Kriterleri
+
+- Site sakini yalnızca kendi oluşturduğu rezervasyonları iptal edebilmelidir.
+- Henüz gerçekleşmemiş rezervasyonlar iptal edilebilmelidir.
+- Geçmiş rezervasyonlar iptal edilememelidir.
+- Başka kullanıcılar tarafından oluşturulan rezervasyonlar iptal edilememelidir.
+- Başarılı iptal işlemi sonrasında kullanıcıya işlem sonucu bildirilmelidir.
+
+### İlgili Gereksinimler
+
+- BR-04
+- BRULE-19
+- NFR-10
+- NFR-11
+
+---
+
 ## Kullanıcı Hikayesi Özeti
 
 | Kullanıcı Hikayesi | Rol | Amaç |
@@ -103,11 +126,12 @@ Bir site sakini olarak, oluşturduğum ortak alan rezervasyonlarını görüntü
 | US-16 | Site Sakini | Ortak alan rezervasyonu oluşturmak |
 | US-17 | Site Sakini | Çakışmayan zaman aralığında rezervasyon oluşturmak |
 | US-18 | Site Sakini | Kendi rezervasyonlarını görüntülemek |
+| US-19 | Site Sakini | Kendi rezervasyonunu iptal etmek |
 
 ---
 
 ## Genel Değerlendirme
 
-Ortak alan rezervasyonu kullanıcı hikayeleri, site sakinlerinin rezervasyona açık ortak alanları görüntülemesi, uygun tarih ve saat aralıkları için rezervasyon oluşturması ve kendi rezervasyon kayıtlarını takip etmesi temel alınarak hazırlanmıştır.
+Ortak alan rezervasyonu kullanıcı hikayeleri, site sakinlerinin rezervasyona açık ortak alanları görüntülemesi, uygun tarih ve saat aralıkları için rezervasyon oluşturması, kendi rezervasyon kayıtlarını takip etmesi ve henüz gerçekleşmemiş rezervasyonlarını iptal etmesi temel alınarak hazırlanmıştır.
 
 Tanımlanan kabul kriterleri, kullanıcı hikayelerinin tamamlanma koşullarının değerlendirilmesinde referans olarak kullanılacaktır.
