@@ -100,33 +100,37 @@ Geçmiş tarihli bir zaman aralığı için yeni rezervasyon oluşturulamaz.
 
 Site sakini kendi rezervasyon kayıtlarını görüntüleyebilir.
 
+### BRULE-19
+
+Site sakini yalnızca kendi oluşturduğu ve henüz gerçekleşmemiş rezervasyonları iptal edebilir.
+
 ---
 
 ## Ortak Gider Yönetimi Kuralları
 
 **İlgili İş Gereksinimi:** BR-05
 
-### BRULE-19
+### BRULE-20
 
 Bireysel dairelere ait elektrik, su veya doğalgaz faturaları sistem kapsamında kayıt altına alınamaz.
 
-### BRULE-20
+### BRULE-21
 
 Yalnızca apartman veya siteye ait ortak giderler kayıt altına alınabilir.
 
-### BRULE-21
+### BRULE-22
 
 Ortak gider kayıtları yalnızca yetkili kullanıcılar tarafından oluşturulabilir ve güncellenebilir.
 
-### BRULE-22
+### BRULE-23
 
 Her ortak gider kaydı gider türü, dönem ve tutar bilgisi içermelidir.
 
-### BRULE-23
+### BRULE-24
 
 Site sakinleri yalnızca yayımlanmış ortak gider kayıtlarını görüntüleyebilir.
 
-### BRULE-24
+### BRULE-25
 
 Yayımlanmamış ortak gider kayıtları site sakinleri tarafından görüntülenemez.
 
@@ -136,19 +140,19 @@ Yayımlanmamış ortak gider kayıtları site sakinleri tarafından görüntüle
 
 **İlgili İş Gereksinimi:** BR-06
 
-### BRULE-25
+### BRULE-26
 
 Kullanıcılar yalnızca sahip oldukları rol kapsamında izin verilen işlemleri gerçekleştirebilir.
 
-### BRULE-26
+### BRULE-27
 
 Site sakinleri yönetim yetkisi gerektiren kayıtları oluşturamaz veya güncelleyemez.
 
-### BRULE-27
+### BRULE-28
 
 Kullanıcılar başka site sakinlerine ait özel bilgilere erişemez.
 
-### BRULE-28
+### BRULE-29
 
 Kullanıcı yetkileri sistemde tanımlanan roller üzerinden yönetilmelidir.
 
@@ -161,9 +165,9 @@ Kullanıcı yetkileri sistemde tanımlanan roller üzerinden yönetilmelidir.
 | BR-01 - Aidat Takibi | BRULE-01 - BRULE-04 |
 | BR-02 - Duyuru Yönetimi | BRULE-05 - BRULE-08 |
 | BR-03 - Arıza ve Hizmet Talepleri | BRULE-09 - BRULE-13 |
-| BR-04 - Ortak Alan Rezervasyonu | BRULE-14 - BRULE-18 |
-| BR-05 - Ortak Gider Yönetimi | BRULE-19 - BRULE-24 |
-| BR-06 - Kullanıcı Yetkilendirme | BRULE-25 - BRULE-28 |
+| BR-04 - Ortak Alan Rezervasyonu | BRULE-14 - BRULE-19 |
+| BR-05 - Ortak Gider Yönetimi | BRULE-20 - BRULE-25 |
+| BR-06 - Kullanıcı Yetkilendirme | BRULE-26 - BRULE-29 |
 
 ---
 
