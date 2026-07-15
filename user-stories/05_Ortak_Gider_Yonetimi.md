@@ -6,7 +6,7 @@ Her kullanıcı hikayesi, ilgili kullanıcının hedefini ve bu hedef sonucunda 
 
 ---
 
-## US-19 - Ortak Gider Kaydı Oluşturma
+## US-20 - Ortak Gider Kaydı Oluşturma
 
 ### Kullanıcı Hikayesi
 
@@ -24,17 +24,17 @@ Bir muhasebe sorumlusu olarak, siteye ait ortak gider kaydı oluşturmak istiyor
 ### İlgili Gereksinimler
 
 - BR-05
-- BRULE-19
 - BRULE-20
 - BRULE-21
 - BRULE-22
+- BRULE-23
 - NFR-02
 - NFR-11
 - NFR-18
 
 ---
 
-## US-20 - Ortak Gider Kaydını Güncelleme
+## US-21 - Ortak Gider Kaydını Güncelleme
 
 ### Kullanıcı Hikayesi
 
@@ -51,15 +51,15 @@ Bir muhasebe sorumlusu olarak, oluşturulan ortak gider kaydını güncellemek i
 ### İlgili Gereksinimler
 
 - BR-05
-- BRULE-21
 - BRULE-22
+- BRULE-23
 - NFR-02
 - NFR-11
 - NFR-19
 
 ---
 
-## US-21 - Ortak Gider Kaydını Yayımlama
+## US-22 - Ortak Gider Kaydını Yayımlama
 
 ### Kullanıcı Hikayesi
 
@@ -76,15 +76,15 @@ Bir muhasebe sorumlusu olarak, oluşturulan ortak gider kaydını yayımlamak is
 ### İlgili Gereksinimler
 
 - BR-05
-- BRULE-23
 - BRULE-24
+- BRULE-25
 - NFR-02
 - NFR-11
 - NFR-14
 
 ---
 
-## US-22 - Yayımlanmış Ortak Giderleri Görüntüleme
+## US-23 - Yayımlanmış Ortak Giderleri Görüntüleme
 
 ### Kullanıcı Hikayesi
 
@@ -100,8 +100,8 @@ Bir site sakini olarak, yayımlanmış ortak gider kayıtlarını görüntüleme
 ### İlgili Gereksinimler
 
 - BR-05
-- BRULE-23
 - BRULE-24
+- BRULE-25
 - NFR-05
 - NFR-14
 
@@ -111,10 +111,10 @@ Bir site sakini olarak, yayımlanmış ortak gider kayıtlarını görüntüleme
 
 | Kullanıcı Hikayesi | Rol | Amaç |
 |---|---|---|
-| US-19 | Muhasebe Sorumlusu | Ortak gider kaydı oluşturmak |
-| US-20 | Muhasebe Sorumlusu | Ortak gider kaydını güncellemek |
-| US-21 | Muhasebe Sorumlusu | Ortak gider kaydını yayımlamak |
-| US-22 | Site Sakini | Yayımlanmış ortak giderleri görüntülemek |
+| US-20 | Muhasebe Sorumlusu | Ortak gider kaydı oluşturmak |
+| US-21 | Muhasebe Sorumlusu | Ortak gider kaydını güncellemek |
+| US-22 | Muhasebe Sorumlusu | Ortak gider kaydını yayımlamak |
+| US-23 | Site Sakini | Yayımlanmış ortak giderleri görüntülemek |
 
 ---
 
